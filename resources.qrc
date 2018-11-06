@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/databases">
+        <file>replicator_server_settings.db</file>
+    </qresource>
+    <qresource prefix="/images"/>
+    <qresource prefix="/fonts">
+        <file>LCARS_EXTRA_GLYPHS.ttf</file>
+        <file>Helvetica_Ultra_Compressed.ttf</file>
+    </qresource>
+</RCC>

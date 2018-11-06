@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>404</width>
+    <height>671</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>10</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="LCARS_Button" name="button_StartServer">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica Ultra Compressed</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>START SERVER</string>
+      </property>
+      <property name="Left_Text_Font" stdset="0">
+       <font>
+        <family>Helvetica Ultra Compressed</family>
+        <pointsize>30</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="Right_Text_Font" stdset="0">
+       <font>
+        <family>Helvetica Ultra Compressed</family>
+        <pointsize>30</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="Text_Left" stdset="0">
+       <string>32</string>
+      </property>
+      <property name="Text_Right" stdset="0">
+       <string>LCARS BUTTON</string>
+      </property>
+      <property name="Size_TopLeft" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_BottomLeft" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_TopRight" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_BottomRight" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_extendEdgeLeft" stdset="0">
+       <number>10</number>
+      </property>
+      <property name="Size_extendEdgeRight" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Divider_Left_Position" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Divider_Left_Width" stdset="0">
+       <number>50</number>
+      </property>
+      <property name="Divider_Right_Position" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Divider_Right_Width" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Center_Color" stdset="0">
+       <color>
+        <red>153</red>
+        <green>205</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Edge_Left_Color" stdset="0">
+       <color>
+        <red>153</red>
+        <green>205</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Edge_Right_Color" stdset="0">
+       <color>
+        <red>153</red>
+        <green>205</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Divider_Left_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Divider_Right_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Left_Text_Color" stdset="0">
+       <color>
+        <red>205</red>
+        <green>221</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Center_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Right_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Pressed_Center_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Pressed_Edge_Left_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Pressed_Edge_Right_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Pressed_Divider_Left_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Pressed_Divider_Right_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Pressed_Left_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Pressed_Center_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Pressed_Right_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Red_Center_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Red_Edge_Left_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Red_Edge_Right_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Red_Divider_Left_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Red_Divider_Right_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Red_Left_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Red_Center_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Red_Right_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Center_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Edge_Left_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Edge_Right_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Divider_Left_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Active_Divider_Right_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Active_Left_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Center_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Active_Right_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Text_Center_Distance_Right" stdset="0">
+       <number>15</number>
+      </property>
+      <property name="Text_Center_Distance_Left" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="positioningCenter" stdset="0">
+       <number>1</number>
+      </property>
+      <property name="Center_Text_VAlign" stdset="0">
+       <number>6</number>
+      </property>
+      <property name="Center_Text_HAlign" stdset="0">
+       <number>1</number>
+      </property>
+      <property name="Left_Text_VAlign" stdset="0">
+       <number>6</number>
+      </property>
+      <property name="Left_Text_HAlign" stdset="0">
+       <number>1</number>
+      </property>
+      <property name="RedAlertState" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Color_Theme_ID" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Divider_Second_Position" stdset="0">
+       <number>20</number>
+      </property>
+      <property name="Divider_Second_Width" stdset="0">
+       <number>20</number>
+      </property>
+      <property name="Divider_Second_Color" stdset="0">
+       <color>
+        <red>50</red>
+        <green>102</green>
+        <blue>204</blue>
+       </color>
+      </property>
+      <property name="Left_Text_Distance" stdset="0">
+       <number>60</number>
+      </property>
+      <property name="LTD" stdset="0">
+       <number>423</number>
+      </property>
+      <property name="Pressed_Divider_Second_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="restricted_Height" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="restricted_Height_Value" stdset="0">
+       <double>10.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Preferred</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="LCARS_Button" name="button_StopServer">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica Ultra Compressed</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>STOP SERVER</string>
+      </property>
+      <property name="Left_Text_Font" stdset="0">
+       <font>
+        <family>Helvetica Ultra Compressed</family>
+        <pointsize>30</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="Right_Text_Font" stdset="0">
+       <font>
+        <family>Helvetica Ultra Compressed</family>
+        <pointsize>30</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="Text_Left" stdset="0">
+       <string>12</string>
+      </property>
+      <property name="Text_Right" stdset="0">
+       <string>LCARS BUTTON</string>
+      </property>
+      <property name="Size_TopLeft" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_BottomLeft" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_TopRight" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_BottomRight" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_extendEdgeLeft" stdset="0">
+       <number>10</number>
+      </property>
+      <property name="Size_extendEdgeRight" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Divider_Left_Position" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Divider_Left_Width" stdset="0">
+       <number>50</number>
+      </property>
+      <property name="Divider_Right_Position" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Divider_Right_Width" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Center_Color" stdset="0">
+       <color>
+        <red>153</red>
+        <green>205</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Edge_Left_Color" stdset="0">
+       <color>
+        <red>153</red>
+        <green>205</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Edge_Right_Color" stdset="0">
+       <color>
+        <red>153</red>
+        <green>205</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Divider_Left_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Divider_Right_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Left_Text_Color" stdset="0">
+       <color>
+        <red>205</red>
+        <green>221</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Center_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Right_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Pressed_Center_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Pressed_Edge_Left_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Pressed_Edge_Right_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Pressed_Divider_Left_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Pressed_Divider_Right_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Pressed_Left_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Pressed_Center_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Pressed_Right_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Red_Center_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Red_Edge_Left_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Red_Edge_Right_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Red_Divider_Left_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Red_Divider_Right_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Red_Left_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Red_Center_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Red_Right_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Center_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Edge_Left_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Edge_Right_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Divider_Left_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Active_Divider_Right_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Active_Left_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Center_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Active_Right_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Text_Center_Distance_Right" stdset="0">
+       <number>15</number>
+      </property>
+      <property name="Text_Center_Distance_Left" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="positioningCenter" stdset="0">
+       <number>1</number>
+      </property>
+      <property name="Center_Text_VAlign" stdset="0">
+       <number>6</number>
+      </property>
+      <property name="Center_Text_HAlign" stdset="0">
+       <number>1</number>
+      </property>
+      <property name="Left_Text_VAlign" stdset="0">
+       <number>6</number>
+      </property>
+      <property name="Left_Text_HAlign" stdset="0">
+       <number>1</number>
+      </property>
+      <property name="RedAlertState" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Color_Theme_ID" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Divider_Second_Position" stdset="0">
+       <number>20</number>
+      </property>
+      <property name="Divider_Second_Width" stdset="0">
+       <number>20</number>
+      </property>
+      <property name="Divider_Second_Color" stdset="0">
+       <color>
+        <red>50</red>
+        <green>102</green>
+        <blue>204</blue>
+       </color>
+      </property>
+      <property name="Left_Text_Distance" stdset="0">
+       <number>60</number>
+      </property>
+      <property name="LTD" stdset="0">
+       <number>423</number>
+      </property>
+      <property name="Pressed_Divider_Second_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="restricted_Height" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="restricted_Height_Value" stdset="0">
+       <double>10.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget" native="true"/>
+    </item>
+    <item>
+     <widget class="LCARS_Line" name="LCARS_Lines_4">
+      <property name="Size_TopLeft" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_BottomLeft" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_TopRight" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_BottomRight" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Center_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Edge_Left_Color" stdset="0">
+       <color>
+        <red>153</red>
+        <green>205</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Edge_Right_Color" stdset="0">
+       <color>
+        <red>153</red>
+        <green>205</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Red_Center_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Red_Edge_Left_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Red_Edge_Right_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Active_Center_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Edge_Left_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Edge_Right_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="RedAlertState" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Color_Theme_ID" stdset="0">
+       <number>0</number>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>40</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>40</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLineEdit" name="ip_Edit">
+         <property name="font">
+          <font>
+           <family>Helvetica Ultra Compressed</family>
+           <pointsize>48</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>localhost</string>
+         </property>
+         <property name="frame">
+          <bool>false</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>HOSTIP</string>
+         </property>
+         <property name="clearButtonEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="LCARS_Line" name="LCARS_Lines_5">
+      <property name="Size_TopLeft" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_BottomLeft" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_TopRight" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_BottomRight" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Center_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Edge_Left_Color" stdset="0">
+       <color>
+        <red>153</red>
+        <green>205</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Edge_Right_Color" stdset="0">
+       <color>
+        <red>153</red>
+        <green>205</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Red_Center_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Red_Edge_Left_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Red_Edge_Right_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Active_Center_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Edge_Left_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Edge_Right_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="RedAlertState" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Color_Theme_ID" stdset="0">
+       <number>0</number>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>40</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>40</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLineEdit" name="port_Edit">
+         <property name="font">
+          <font>
+           <family>Helvetica Ultra Compressed</family>
+           <pointsize>48</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>1701</string>
+         </property>
+         <property name="frame">
+          <bool>false</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="placeholderText">
+          <string>HOSTPORT</string>
+         </property>
+         <property name="clearButtonEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="debug_message">
+      <property name="font">
+       <font>
+        <family>Droid Sans Mono</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="plainText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="LCARS_Button" name="button_Close">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica Ultra Compressed</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>CLOSE</string>
+      </property>
+      <property name="Left_Text_Font" stdset="0">
+       <font>
+        <family>Helvetica Ultra Compressed</family>
+        <pointsize>30</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="Right_Text_Font" stdset="0">
+       <font>
+        <family>Helvetica Ultra Compressed</family>
+        <pointsize>30</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="Text_Left" stdset="0">
+       <string>67</string>
+      </property>
+      <property name="Text_Right" stdset="0">
+       <string>LCARS BUTTON</string>
+      </property>
+      <property name="Size_TopLeft" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_BottomLeft" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_TopRight" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_BottomRight" stdset="0">
+       <size>
+        <width>20</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="Size_extendEdgeLeft" stdset="0">
+       <number>10</number>
+      </property>
+      <property name="Size_extendEdgeRight" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Divider_Left_Position" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Divider_Left_Width" stdset="0">
+       <number>50</number>
+      </property>
+      <property name="Divider_Right_Position" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Divider_Right_Width" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Center_Color" stdset="0">
+       <color>
+        <red>153</red>
+        <green>205</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Edge_Left_Color" stdset="0">
+       <color>
+        <red>153</red>
+        <green>205</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Edge_Right_Color" stdset="0">
+       <color>
+        <red>153</red>
+        <green>205</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Divider_Left_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Divider_Right_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Left_Text_Color" stdset="0">
+       <color>
+        <red>205</red>
+        <green>221</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Center_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Right_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Pressed_Center_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Pressed_Edge_Left_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Pressed_Edge_Right_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Pressed_Divider_Left_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Pressed_Divider_Right_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Pressed_Left_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Pressed_Center_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Pressed_Right_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Red_Center_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Red_Edge_Left_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Red_Edge_Right_Color" stdset="0">
+       <color>
+        <red>200</red>
+        <green>24</green>
+        <blue>28</blue>
+       </color>
+      </property>
+      <property name="Red_Divider_Left_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Red_Divider_Right_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Red_Left_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Red_Center_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Red_Right_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Center_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Edge_Left_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Edge_Right_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Divider_Left_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Active_Divider_Right_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Active_Left_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Active_Center_Text_Color" stdset="0">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="Active_Right_Text_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="Text_Center_Distance_Right" stdset="0">
+       <number>15</number>
+      </property>
+      <property name="Text_Center_Distance_Left" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="positioningCenter" stdset="0">
+       <number>1</number>
+      </property>
+      <property name="Center_Text_VAlign" stdset="0">
+       <number>6</number>
+      </property>
+      <property name="Center_Text_HAlign" stdset="0">
+       <number>1</number>
+      </property>
+      <property name="Left_Text_VAlign" stdset="0">
+       <number>6</number>
+      </property>
+      <property name="Left_Text_HAlign" stdset="0">
+       <number>1</number>
+      </property>
+      <property name="RedAlertState" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Color_Theme_ID" stdset="0">
+       <number>0</number>
+      </property>
+      <property name="Divider_Second_Position" stdset="0">
+       <number>20</number>
+      </property>
+      <property name="Divider_Second_Width" stdset="0">
+       <number>20</number>
+      </property>
+      <property name="Divider_Second_Color" stdset="0">
+       <color>
+        <red>50</red>
+        <green>102</green>
+        <blue>204</blue>
+       </color>
+      </property>
+      <property name="Left_Text_Distance" stdset="0">
+       <number>60</number>
+      </property>
+      <property name="LTD" stdset="0">
+       <number>423</number>
+      </property>
+      <property name="Pressed_Divider_Second_Color" stdset="0">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="restricted_Height" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="restricted_Height_Value" stdset="0">
+       <double>10.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>LCARS_Button</class>
+   <extends>QPushButton</extends>
+   <header>lcars_button.h</header>
+  </customwidget>
+  <customwidget>
+   <class>LCARS_Line</class>
+   <extends>QWidget</extends>
+   <header>lcars_line.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
